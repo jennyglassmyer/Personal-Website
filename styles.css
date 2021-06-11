@@ -204,6 +204,10 @@ body {
 }
 
 .profile-content-wrapper h1 {
-  color: #6b705c;
+  color: #b7b7a4;
   font-weight:  600;
+}
+
+.outro {
+  font-weight: 300;
 }
