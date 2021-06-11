@@ -1,0 +1,207 @@
+/* Master Styles */
+
+body {
+  margin: 10px;
+
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+/* Nav Styles */
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  font-family:  'Raleway', sans-serif;
+}
+
+.left-side {
+  display: flex;
+
+}
+
+.nav-wrapper > .left-side > div {
+  margin-right:  20px;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+
+}
+
+.brand {
+  font-size: 1.3rem;
+}
+
+.nav-link-wrapper {
+  height: 22px;
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.5s;
+}
+
+.nav-link-wrapper a {
+  color:  #8a8a8a;
+  text-decoration: none;
+  transition: color 0.5s;
+}
+
+.nav-link-wrapper:hover {
+  border-bottom: 1px solid black;
+
+}
+
+.nav-link-wrapper a:hover {
+  color:  black;
+}
+
+/* Portfolio Styles */
+
+.portfolio-items-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, max(33.33%));
+}
+
+.portfolio-item-wrapper {
+  position:  relative;
+  margin: 10px;
+}
+
+.portfolio-img-background {
+  height: 400px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.img-text-wrapper {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  height: 100%;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.img-text-wrapper-uofl {
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center ;
+  height: 100%;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 100px;
+  padding-top: 35px;
+}
+
+.logo-wrapper-jfs img {
+  margin: 0 auto;
+  width:  55%;
+}
+
+.logo-wrapper-tbb img {
+  width:  55% ;
+  margin: 0 auto;
+}
+
+.logo-wrapper-uw img {
+  width: 40% ;
+  margin: 0 auto;
+}
+
+.logo-wrapper-uofl img {
+  width: 34% ;
+  margin-right: 50px;
+  margin-top: 30px;
+}
+
+.logo-wrapper-lewagon img {
+  width: 70% ;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.logo-wrapper-harvard img {
+  width:  65% ;
+  margin: 0 auto;
+}
+
+.logo-wrapper-self img {
+  width:  65% ;
+  margin: 0 auto;
+}
+
+.logo-wrapper-freelance img {
+  width:  65% ;
+  margin: 0 auto;
+}
+
+.logo-wrapper-languages img {
+  width:  65% ;
+  margin: 0 auto;
+}
+
+.img-text-wrapper .subtitle {
+  transition:  1s;
+  font-weight:  600;
+  color:  transparent;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-text-wrapper:hover .subtitle {
+  font-weight: 600;
+  color: beige;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-text-wrapper-uofl .subtitle {
+  transition:  1s;
+  font-weight:  600;
+  font-family: 'Montserrat', sans-serif;
+  color:  transparent;
+  padding-right: 60px;
+}
+
+.img-text-wrapper-uofl:hover .subtitle {
+  font-weight: 600;
+  color: beige;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.img-darken {
+  transition:  1s;
+  filter:  brightness(30%);
+}
+
+/*About Page Styles*/
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin:  10px;
+}
+
+.profile-image-wrapper img {
+  width:  100%;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+.profile-content-wrapper {
+  padding:  50px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.profile-content-wrapper h1 {
+  color: #6b705c;
+  font-weight:  600;
+}
